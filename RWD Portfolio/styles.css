@@ -1,0 +1,359 @@
+.Navbtn{
+    background-color: white;
+    border: none;
+    color:#2673D9;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 2.4rem;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Navbtn:active{
+    background: white;
+    color:#2673D9;
+}
+
+.Navbtn:hover{
+    background: #2673D9;
+    color:white;
+    text-decoration: none;
+
+}
+
+.Navbtn:focus-within{
+    background: #2673D9;
+    color:white;
+}
+
+
+.Navbtn:focus{
+    background: #2673D9;
+    color:white;
+}
+
+.navbar-light .navbar-toggler {
+    color:none;
+    border-color:rgba(0, 0, 0, 0);
+}
+
+.bg-light{
+    background: rgb(255, 255, 255)!important;
+}
+
+.jumbotron {
+    background-repeat: no-repeat;
+    background-color: #262626;
+    margin-bottom: -11rem;
+}
+
+
+body {
+    background-color: #262626;
+}
+
+#Me{
+    text-align: center;
+    margin-top: 30px;
+    transform: scale(.9);
+}
+
+@media (max-width: 576px){
+    #Me{
+        transform: scale(.7);
+        margin-top: 50px;
+    }
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    color: white;
+}
+
+@media (max-width: 576px){
+    h1{
+        font-size: 30px;
+        margin-top:5px;
+    }
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color:#2673D9;
+    margin-bottom: 70px;
+    margin-top: 5px;
+}
+
+@media (max-width: 576px){
+    h3{
+        font-size: 20px;
+        margin-top:1px;
+        margin-bottom: 105px;
+    }
+}
+
+#blueheader{
+    color:#2673D9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    text-align: start;
+}
+
+@media (max-width: 576px){
+    #blueheader{
+        transform: scale(.7);
+        margin-bottom: 35px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    #blueheader{
+       text-align: center;
+       padding-right: 28px;
+    }
+}
+
+#textbackground{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px){
+    #textbackground{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 576px){
+    #textbackground{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}        
+
+#workbackground{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px){
+    #workbackground{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 576px){
+    #workbackground{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+} 
+
+#textbackground2{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+}
+
+@media (max-width: 768px){
+    #textbackground2{
+        padding-left: 13px;
+        padding-bottom: 60px;
+    }
+}
+
+#textbackground3{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 400px;
+}
+
+@media (max-width: 768px){
+    #textbackground3{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 576px){
+    #textbackground3{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 60px; 
+        margin-bottom: 100px;
+    }
+}        
+
+
+p{
+    margin-bottom: 0rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 576px){
+    p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px){
+    p{
+        text-align: left;
+    }
+}
+
+#content{
+    margin-bottom: 0rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+@media (max-width: 768px){
+    #content{
+        text-align: justify;
+    }
+}
+
+
+#schoolicon{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px){
+    #schoolicon{
+        transform: scale(.7);
+        margin-bottom: -2px;
+    }
+}
+
+@media (min-width: 768px){
+    #schoolicon{
+       transform: scale(.8);
+       margin: -5px;
+       margin-bottom: 20px;
+       margin-left: -15px;
+    }
+}
+
+#sftwr{
+    margin-bottom:1px;
+    margin: -20px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    transform: scale(.85);
+    text-align: left;
+    padding-right:20px;
+}
+
+@media (max-width: 576px){
+    #sftwr{
+        transform: scale(.7);
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+}
+
+#headericon{
+    transform: scale(.7);
+}
+
+#contacticon{
+    transform: scale(.95);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px){
+    #contacticon{
+        transform: scale(.75);
+        margin-bottom: 12px;
+        margin-top: 21px;
+    }
+}
+
+@media (max-width: 768px){
+    #contacticon{
+        transform: scale(.75);
+        margin-bottom: 8px;
+        margin-top: 41px;
+    }
+}
+
+#work{
+    border: 8px solid rgb(240, 240, 240);
+    border-radius: .75rem;
+    transition: border .25s ease-in-out;
+    transform: scale(1);
+    text-align: center;
+    margin: 3px;
+}
+
+@media (min-width: 768px){
+    #work{
+        transform: scale(.95);
+        margin: -30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 576px){
+    #work{
+        transform: scale(1.2);
+        margin: 60px;
+        margin-bottom: 20px;
+    }
+}
+
+#work:hover{
+    border: 8px solid rgb(38, 115, 217);
+}
+
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+h7{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 4rem;
+    padding-bottom: 0rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#footer{
+    margin-bottom: -60px;
+}
